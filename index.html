@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- box icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- css external -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-jakarta">
+    <section
+      class="signup bg-java min-h-screen py-10 px-10 lg:max-h-screen lg:flex lg:overflow-y-hidden lg:justify-between lg:relative"
+    >
+      <!-- signup form -->
+      <div class="left relative lg:w-1/2 lg:pl-10 lg:pt-10">
+        <!-- site logo -->
+        <div class="logo mb-10">
+          <img class="w-[150px]" src="./images/Logo.svg" alt="logo" />
+        </div>
+        <!-- form contents -->
+        <div class="content text-[grey] mx-auto md:max-w-xl lg:w-full lg:mx-0">
+          <h2 class="text-[30px] font-bold pb-2 text-white">Hi there,....</h2>
+          <p class="text-[10px]">Get Started with Appointments</p>
+
+          <form action="get">
+            <div class="infos my-4">
+              <label class="inline-block py-2 fw" for="FullName"
+                >Full name</label
+              >
+              <div class="relative group">
+                <span class="absolute top-1/2 -translate-y-1/2 left-[10px]"
+                  ><i
+                    class="bx bx-user text-[20px] group-focus-within:text-emerald-500"
+                  ></i
+                ></span>
+                <input
+                  type="text"
+                  name="FullName"
+                  id=""
+                  class="w-full form-input bg-backg rounded-[8px] pl-10 focus:ring-emerald-500/10 focus:ring-4 focus:border-emerald-500"
+                />
+              </div>
+            </div>
+            <div class="infos my-4">
+              <label class="inline-block py-2" for="EmailAddress"
+                >Email address</label
+              >
+              <div class="relative group">
+                <span class="absolute top-[50%] -translate-y-[50%] left-2.5"
+                  ><i
+                    class="bx bx-envelope text-[20px] group-focus-within:text-emerald-500"
+                  ></i
+                ></span>
+                <input
+                  type="email"
+                  name="EmailAddress"
+                  id=""
+                  class="w-full form-input bg-backg rounded-[8px] pl-10 focus:ring-emerald-500/10 focus:ring-4 focus:border-emerald-500"
+                />
+              </div>
+            </div>
+            <div class="infos my-4">
+              <label class="inline-block py-2" for="PhoneNumber"
+                >Phone number</label
+              >
+              <div class="relative group">
+                <span class="absolute top-[50%] -translate-y-[50%] left-2.5"
+                  ><i
+                    class="bx bx-phone text-[20px] group-focus-within:text-emerald-500"
+                  ></i
+                ></span>
+
+                <input
+                  class="w-full form-input bg-backg rounded-[8px] pl-10 focus:ring-emerald-500/10 focus:ring-4 focus:border-emerald-500"
+                  type="tel"
+                  name="PhoneNumber"
+                  id=""
+                />
+              </div>
+            </div>
+            <button
+              class="bg-[#24AE7C] w-full rounded-[8px] text-white text-center mt-4 py-3.5 text-[13px] font-bold hover:bg-emerald-700 duration-300"
+            >
+              Get Started
+            </button>
+          </form>
+        </div>
+        <!-- copyrigt -->
+        <p class="mt-20 bottom-5 text-[grey]">@carepluscopyright</p>
+      </div>
+      <!-- form image -->
+      <div
+        class="rigth bg-[url(./images/4801652f5a63c4de389ce684e2cfe8f0.png)] bg-cover bg-center h-screen hidden lg:block w-[45%] lg:absolute lg:right-0 lg:top-0 lg:rounded-s-[20px]"
+      ></div>
+    </section>
+  </body>
+</html>
